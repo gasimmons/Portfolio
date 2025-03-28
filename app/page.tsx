@@ -32,9 +32,11 @@ export default function Page() {
             </div>
             <div className="ml-auto flex items-center gap-2">
               <ThemeToggle />
-              <Button variant="outline" className="border-[#64ffda] text-[#64ffda] hover:bg-[#64ffda]/10">
-                Resume
-              </Button>
+              <Link href="../public/assets/Gavin_Simmons_Updated_Resume_SWE.pdf" target="_blank" rel="noopener noreferrer">
+                <Button variant="outline" className="border-[#64ffda] text-[#64ffda] hover:bg-[#64ffda]/10">
+                  Resume
+                </Button>
+              </Link>
             </div>
           </div>
         </header>
@@ -51,8 +53,7 @@ export default function Page() {
                   Backend Engineer
                 </h2>
                 <p className="text-[#8892b0] text-lg max-w-[540px]">
-                  I build accessible, pixel-perfect digital experiences for the web. Focused on creating elegant solutions
-                  to complex problems.
+                  I use the technology of today to build the data driven solutions of tomorrow
                 </p>
                 <div className="flex space-x-4">
                   <Link href="https://github.com/gasimmons" target="_blank">
@@ -94,11 +95,6 @@ export default function Page() {
                   contribute technical skills in software development and deep data mining to build scalable data
                   architectures while possibly further developing expertise in machine learning, cloud computing, and
                   distributed systems.
-                </p>
-                <p className="text-[#8892b0] text-lg">
-                  Currently, I'm a Senior Front-End Engineer at <span className="text-[#64ffda]">TechCorp</span>,
-                  specializing in accessibility. I contribute to the creation and maintenance of UI components that power
-                  our platform, ensuring it meets web accessibility standards and best practices.
                 </p>
               </div>
               <TechStack />

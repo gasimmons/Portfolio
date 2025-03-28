@@ -18,10 +18,7 @@ const experiences = [
         title: "Undergraduate CV/Bioinformatics Research Assistant",
         period: "September 2023 - Present",
         description: [
-            "Developed responsive web applications for various clients in the e-commerce sector",
-            "Collaborated with designers to implement pixel-perfect interfaces",
-            "Optimized applications for maximum speed and scalability",
-            "Maintained code quality through comprehensive testing and code reviews",
+
         ],
         url: "https://edwinsolares.com/current-research/",
     },
