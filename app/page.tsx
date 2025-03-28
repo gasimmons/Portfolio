@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { Github, Linkedin, Mail } from "lucide-react"
+import { Github, Linkedin, Mail, Instagram } from "lucide-react"
 import Link from "next/link"
 import ThemeToggle from "@/components/theme-toggle"
 import Experience from "./components/experience"
@@ -12,9 +12,6 @@ export default function Page() {
         <header className="sticky top-0 z-50 w-full border-b border-[#233554] bg-[#0a192f]/95 backdrop-blur supports-[backdrop-filter]:bg-[#0a192f]/60">
           <div className="container flex h-16 items-center">
             <div className="mr-4 hidden md:flex">
-              <Link className="mr-6 flex items-center space-x-2" href="/">
-                <span className="hidden font-bold sm:inline-block">developer.io</span>
-              </Link>
               <nav className="flex items-center space-x-6 text-sm font-medium">
                 <Link href="#about" className="text-[#ccd6f6] transition-colors hover:text-[#64ffda]">
                   About
@@ -32,7 +29,7 @@ export default function Page() {
             </div>
             <div className="ml-auto flex items-center gap-2">
               <ThemeToggle />
-              <Link href="../public/assets/Gavin_Simmons_Updated_Resume_SWE.pdf" target="_blank" rel="noopener noreferrer">
+              <Link href="/assets/Gavin_Simmons_Updated_Resume_SWE.pdf" target="_blank" rel="noopener noreferrer">
                 <Button variant="outline" className="border-[#64ffda] text-[#64ffda] hover:bg-[#64ffda]/10">
                   Resume
                 </Button>
@@ -86,6 +83,16 @@ export default function Page() {
                       <span className="sr-only">Email</span>
                     </Button>
                   </Link>
+                  <Link href="https://www.instagram.com/_gavinsimmons/" target="_blank">
+                    <Button
+                      variant="outline"
+                      size="icon"
+                      className="border-[#233554] text-[#ccd6f6] hover:border-[#64ffda] hover:text-[#64ffda]"
+                    >
+                      <Instagram className="h-5 w-5" />
+                      <span className="sr-only">Instagram</span>
+                    </Button>
+                  </Link>
                 </div>
               </div>
               <div className="space-y-6">
@@ -114,18 +121,21 @@ export default function Page() {
             </h2>
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
               <ProjectCard
-                  title="E-commerce Platform"
-                  description="A full-stack e-commerce platform built with Next.js, Prisma, and Stripe integration."
+                  title="Study of LLM Fourier Feature Arithmetic"
+                  description="A recreation and expansion upon Zhou et al (2024, 2025), studying how pretrained LLMs can
+                  learn Fourier features, and consequently how using these we can use Fourier Number Embeddings (FoNE)
+                  to train GPT2 on addition, subtraction, multiplication and division achieving near perfect accuracy
+                  with only 10% of the training data"
                   image="/placeholder.svg?height=400&width=600"
-                  link="https://github.com"
-                  tags={["Next.js", "Prisma", "Stripe"]}
+                  link="https://github.com/gasimmons/LLMFourierArithmetic"
+                  tags={["Python", "PyTorch", "WandB", "GPT2"]}
               />
               <ProjectCard
                   title="Task Management App"
                   description="A real-time task management application with team collaboration features."
                   image="/placeholder.svg?height=400&width=600"
                   link="https://github.com"
-                  tags={["React", "Node.js", "Socket.io"]}
+                  tags={["React", "Node.js", "Socket.io", "GPT2"]}
               />
               <ProjectCard
                   title="AI Chat Interface"
