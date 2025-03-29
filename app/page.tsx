@@ -103,6 +103,12 @@ export default function Page() {
                   architectures while possibly further developing expertise in machine learning, cloud computing, and
                   distributed systems.
                 </p>
+                <p className="text-[#8892b0] text-lg">
+                  temp text
+                </p>
+                <p className="text-[#8892b0] text-lg">
+                  MORE PERSONAL
+                </p>
               </div>
               <TechStack />
             </div>
@@ -151,8 +157,8 @@ export default function Page() {
             <p className="text-[#64ffda] font-mono mb-4">04. What's Next?</p>
             <h2 className="text-3xl font-bold tracking-tight text-[#ccd6f6] mb-6">Get In Touch</h2>
             <p className="text-[#8892b0] text-lg max-w-[600px] mx-auto mb-8">
-              I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll do my
-              best to get back to you!
+              Looking for new opportunities! If you’d like to connect, have any questions, or just want to chat, feel
+              free to reach out. I’d love to hear from you!
             </p>
             <Button className="bg-transparent border border-[#64ffda] text-[#64ffda] hover:bg-[#64ffda]/10">
               Say Hello

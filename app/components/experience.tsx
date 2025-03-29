@@ -9,7 +9,21 @@ const experiences = [
         title: "Cloud Engineer Intern",
         period: "June 2024 - September 2024",
         description: [
-            "Developed a robust data parsing framework ",
+            "Developed a robust data parsing framework using Python to automatically process and upload customer " +
+            "documents (PDFs, CSVs, and Excels) to a MySQL database, reducing manual processing time and ensuring " +
+            "reliable data integration through an exception handling mechanism.",
+            "Developed a python-based tool that when called, retrieves a grid image video and a track file from AWS S3 " +
+            "buckets. Using OpenCV and FFmpeg for video reconstruction, inserting black frames for missing timestamps " +
+            "and drawing bounding boxes on the images. The reconstructed video is uploaded back to an S3 bucket for the" +
+            "team to use in debugging.",
+            "Enhanced the Django admin site by integrating Google OAuth for secure user authentication, engineered " +
+            "custom tools for managing user permissions, and designed dynamic pages that display database information " +
+            "with links to detailed insights on the dashboard. Improved infrastructure by optimizing server " +
+            "configurations and deploying scalable AWS Cloud environment solutions, which enhanced web application " +
+            "performance and ensured consistent uptime",
+            "Developed the GraphQL API in Node.js to enable secure, scalable data exchange between systems, utilizing " +
+            "both MySQL for relational data management and MongoDB for flexible, document-based storage. Implemented JWT " +
+            "for authentication and optimized database queries to enhance performance and security."
         ],
         url: "https://mykargo.com",
     },
@@ -18,7 +32,17 @@ const experiences = [
         title: "Undergraduate CV/Bioinformatics Research Assistant",
         period: "September 2023 - Present",
         description: [
-
+            "Implemented PyTorch-based image segmentation using UNet and YoloV8 models, trained on datasets with 80%" +
+            "training, 10% validation, and 10% testing sets. Enhanced each model's recall rate to over 85% through " +
+            "hyperparameter tuning and architecture optimization.",
+            "Develops data analysis pipelines by integrating Python scripts for data manipulation and visualization " +
+            "using Seaborn, Matplotlib, and Pandas. Used Bash scripts for workflow automation and tools like SAM tools " +
+            "and Bedtools for read alignments and variant calling in sequencing projects. Automated complex analyses " +
+            "with Snakemake, reducing processing time by about 10 hours per genome and ensuring reproducible results.",
+            "Developed an avocado tree semantic segmentation model using a U-Net architecture, achieving a IoU of .74. " +
+            "With a manually labelled dataset, the training pipeline included an early stopping and cosine annealing " +
+            "learning rate scheduler to prevent overfitting and optimize convergence. The production version is " +
+            "deployed on Google AI Platform to enable efficient batch processing of large image datasets for segmentation."
         ],
         url: "https://edwinsolares.com/current-research/",
     },
