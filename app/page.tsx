@@ -136,20 +136,6 @@ export default function Page() {
                   link="https://github.com/gasimmons/LLMFourierArithmetic"
                   tags={["Python", "PyTorch", "WandB", "GPT2"]}
               />
-              <ProjectCard
-                  title="Task Management App"
-                  description="A real-time task management application with team collaboration features."
-                  image="/placeholder.svg?height=400&width=600"
-                  link="https://github.com"
-                  tags={["React", "Node.js", "Socket.io", "GPT2"]}
-              />
-              <ProjectCard
-                  title="AI Chat Interface"
-                  description="An AI-powered chat interface with natural language processing capabilities."
-                  image="/placeholder.svg?height=400&width=600"
-                  link="https://github.com"
-                  tags={["OpenAI", "Next.js", "TailwindCSS"]}
-              />
             </div>
           </section>
 
