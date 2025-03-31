@@ -97,17 +97,16 @@ export default function Page() {
               </div>
               <div className="space-y-6">
                 <p className="text-[#8892b0] text-lg">
-                  A soon-to-graduate aspiring Backend Software Engineer with a solid background in backend data management,
-                  specializing in the extraction, storage, and optimization of large-scale data stores. Eager to
-                  contribute technical skills in software development and deep data mining to build scalable data
-                  architectures while possibly further developing expertise in machine learning, cloud computing, and
-                  distributed systems.
+                  A soon-to-graduate Backend Software Engineer with a passion for transforming raw data into scalable
+                  systems. I specialize in designing efficient data pipelines, optimizing storage architectures, and
+                  wrestling with large-scale datasets—turning chaos into performance. Eager to apply my skills in
+                  distributed systems and cloud-native solutions, with a side curiosity for machine learning’s role in
+                  backend innovation.
                 </p>
                 <p className="text-[#8892b0] text-lg">
-                  temp text
-                </p>
-                <p className="text-[#8892b0] text-lg">
-                  MORE PERSONAL
+                  When I am not programming, you will likely find me outdoors, whether that is surfing, riding my bikes,
+                  or just chilling and listening to music, I find it a great way to decompress and it allows me to stay
+                  fresh and always think of new approaches to different problems.
                 </p>
               </div>
               <TechStack />
