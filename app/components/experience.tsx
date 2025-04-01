@@ -32,9 +32,8 @@ const experiences = [
         title: "Undergraduate CV/Bioinformatics Research Assistant",
         period: "September 2023 - Present",
         description: [
-            "Implemented PyTorch-based image segmentation using UNet and YoloV8 models, trained on datasets with 80%" +
-            "training, 10% validation, and 10% testing sets. Enhanced each model's recall rate to over 85% through " +
-            "hyperparameter tuning and architecture optimization.",
+            "Implemented PyTorch-based image segmentation using UNet and YoloV8 models trained on in house labeled images," +
+            "Enhanced each model's recall rate to over 85% through hyper-parameter tuning and architecture optimization.",
             "Develops data analysis pipelines by integrating Python scripts for data manipulation and visualization " +
             "using Seaborn, Matplotlib, and Pandas. Used Bash scripts for workflow automation and tools like SAM tools " +
             "and Bedtools for read alignments and variant calling in sequencing projects. Automated complex analyses " +

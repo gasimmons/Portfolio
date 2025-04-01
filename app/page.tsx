@@ -130,9 +130,9 @@ export default function Page() {
                   description="A recreation and expansion upon Zhou et al (2024, 2025), studying how pretrained LLMs can
                   learn Fourier features, and consequently how using these we can use Fourier Number Embeddings (FoNE)
                   to train GPT2 on addition, subtraction, multiplication and division achieving near perfect accuracy
-                  with only 10% of the training data"
-                  image="/placeholder.svg?height=400&width=600"
-                  link="https://github.com/gasimmons/LLMFourierArithmetic"
+                  with only 10% of the training data. Private repo due to containing private information."
+                  image="/assets/LLM_Fourier_Cover.png"
+                  link="/assets/CSE_151B_PA5.pdf"
                   tags={["Python", "PyTorch", "WandB", "GPT2"]}
               />
             </div>
@@ -145,9 +145,10 @@ export default function Page() {
               Looking for new opportunities! If you’d like to connect, have any questions, or just want to chat, feel
               free to reach out. I’d love to hear from you!
             </p>
-            <Button className="bg-transparent border border-[#64ffda] text-[#64ffda] hover:bg-[#64ffda]/10">
-              Say Hello
-            </Button>
+            <p className={"text-[#ccd6f6] text lg max-w-[600px] mx-auto mb-6"}>
+              Email: gasimmons@ucsd.edu
+            </p>
+
           </section>
         </main>
 
