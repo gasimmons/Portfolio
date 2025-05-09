@@ -136,7 +136,21 @@ export default function Page() {
                   tags={["Python", "PyTorch", "WandB", "GPT2"]}
               />
             </div>
+
+            <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+              <ProjectCard
+                  title="Snapchef - Personal Project"
+                  description="A recreation and expansion upon Zhou et al (2024, 2025), studying how pretrained LLMs can
+                  learn Fourier features, and consequently how using these we can use Fourier Number Embeddings (FoNE)
+                  to train GPT2 on addition, subtraction, multiplication and division achieving near perfect accuracy
+                  with only 10% of the training data. Private repo due to containing private information."
+                  image="/assets/LLM_Fourier_Cover.png"
+                  link="/assets/CSE_151B_PA5.pdf"
+                  tags={["Python", "PyTorch", "WandB", "GPT2"]}
+              />
+            </div>
           </section>
+
 
           <section id="contact" className="py-24 text-center">
             <p className="text-[#64ffda] font-mono mb-4">04. What's Next?</p>
